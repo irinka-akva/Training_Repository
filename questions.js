@@ -48,35 +48,6 @@ function isPrime(num) {
 console.log(isPrime(4)); //false, "1 is not prime", true, "2 is prime"
 
 
-
-
-      // 9. Easy Balance Checking
-
-function balance(book) {
-    let newBook = book.replace(/[^\w\s/.]+/gi, "").split("\n").filter(item => item.length > 0);
-    let balance = +newBook[0];
-    console.log(newBook);
-    console.log(balance);
-}
-
-//   console.log(balance(`1000.00!=
-
-//   125 Market !=:125.45
-//   126 Hardware =34.95
-//   127 Video! 7.45
-//   128 Book :14.32
-//   129 Gasoline ::16.10
-//   `));
-  // Original Balance: 1000.00\r
-// 125 Market 125.45 Balance 874.55\r
-// 126 Hardware 34.95 Balance 839.60\r
-// 127 Video 7.45 Balance 832.15\r
-// 128 Book 14.32 Balance 817.83\r
-// 129 Gasoline 16.10 Balance 801.73\r
-// Total expense  198.27\r
-// Average expense  39.65`
-
-
 // 13.Evaluating prefix Polish notation
 // Сделала решение, но оно не проходит некоторые тесты, а какое в этих тестах входящее значение не понятно.
 
